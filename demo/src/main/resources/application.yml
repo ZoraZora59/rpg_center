@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rpg-center
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.somewebsite.com
+    hikari:
+      username: username
+      password: password
+      pool-name: hikari-db-pool
+      connection-init-sql: select 1;
+      minimum-idle: 5
+      connection-test-query: select 1;
