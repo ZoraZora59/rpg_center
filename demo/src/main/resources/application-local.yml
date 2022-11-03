@@ -3,5 +3,6 @@ spring:
     url: jdbc:mysql://localhost:3204
     hikari:
       username: coc_admin
+      password: coc_admin
 server:
-  port: 3204
+  port: 8080

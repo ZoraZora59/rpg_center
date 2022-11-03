@@ -1,1 +1,1 @@
-java -Dfile.encoding=UTF-8 -jar demo-1.0-SNAPSHOT.jar -Dspring.profiles.active=local
+java -Dfile.encoding=UTF-8  -Dspring.profiles.active=local -jar ./target/demo-1.0-SNAPSHOT.jar
