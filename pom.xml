@@ -17,7 +17,7 @@
     <modules>
         <module>framework</module>
         <module>starter</module>
-        <module>demo</module>
+        <module>server</module>
     </modules>
 
     <packaging>pom</packaging>
